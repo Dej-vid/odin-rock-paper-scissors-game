@@ -14,3 +14,17 @@ function getComputerChoice() {
 
 getComputerChoice();
 
+// Function to get human choice
+
+function getHumanChoice() {
+    const validChoices = ["Rock", "Paper", "Scissors"];
+    let humanChoice = prompt("Enter your choice! (Rock, Paper, Scissors)");
+
+    if (!validChoices.includes(humanChoice)) {
+        console.log("Please choose a valid option");
+    } else 
+    console.log(humanChoice);
+}
+
+getHumanChoice();
+
